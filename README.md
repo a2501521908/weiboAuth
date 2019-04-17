@@ -12,7 +12,7 @@
 
 建议:
 
-建议把 QueryWeiBo.java 下的  getAccessToken()、getUserInfo() 封装为类
+建议把 QueryWeiBo.java 下的  getAccessToken()、getUserInfo() 封装为工具类
 
 
 
