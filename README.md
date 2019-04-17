@@ -11,7 +11,7 @@
 2.QueryWeiBo.java 28行向下的常量,均已标注好,同样修改为自己的即可。
 
 建议:
-
+ 
 建议把 QueryWeiBo.java 下的  getAccessToken()、getUserInfo() 封装为工具类
 
 
