@@ -1,5 +1,3 @@
-D:\STS\workspaces\Tesweibo\src\main\java\com\zhangshuaike\action\DoLoginServlet.java
-D:\STS\workspaces\Tesweibo\src\main\java\com\zhangshuaike\utils\MyX509TrustManager.java
-D:\STS\workspaces\Tesweibo\src\main\java\com\zhangshuaike\action\QueryWeiBo.java
-D:\STS\workspaces\Tesweibo\src\main\java\com\zhangshuaike\utils\HttpsUtil.java
-D:\STS\workspaces\Tesweibo\src\main\java\com\zhangshuaike\utils\JsonUtil.java
+D:\idea\workspace\weiboAuth\src\main\java\com\zhangshuaike\action\DoLoginServlet.java
+D:\idea\workspace\weiboAuth\src\main\java\com\zhangshuaike\action\QueryWeiBo.java
+D:\idea\workspace\weiboAuth\src\main\java\com\zhangshuaike\constatns\Constants.java

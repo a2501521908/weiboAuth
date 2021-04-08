@@ -1,13 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>cn.kgc.tangcco.tcmp073.zhangshuaike</groupId>
-	<artifactId>Tesweibo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>cn.keshaowl</groupId>
+	<artifactId>weibo-auth</artifactId>
+	<version>1.0</version>
 	<packaging>war</packaging>
- 
- 
- 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+
 	<dependencies>  
 		<dependency>
 			<groupId>javax</groupId>
@@ -15,71 +19,43 @@
 			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId> 
 			<version>3.1</version>  
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
-		<dependency>
-			<groupId>net.sf.json-lib</groupId>
-			<artifactId>json-lib</artifactId>
-			<version>2.3</version>
-			<classifier>jdk15</classifier><!--指定jdk版本 -->
-		</dependency>
-  
-  
 
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-http</artifactId>
+			<version>5.6.2</version>
+		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.44</version>
+			<version>1.2.75</version>
 		</dependency>
 
-  
-
-  
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
-		</dependency>  
+		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 			<scope>test</scope>   
 		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.44</version>
-		</dependency>
-		<dependency>
-			<groupId>com.mchange</groupId>
-			<artifactId>c3p0</artifactId>
-			<version>0.9.5.2</version>
-		</dependency>  
 
-	
-		<!-- https://mvnrepository.com/artifact/com.belerweb/weibo4j-oauth2 -->
-		<dependency>
-			<groupId>com.belerweb</groupId>
-			<artifactId>weibo4j-oauth2</artifactId>
-			<version>2.1.1-beta2-3</version>
-		</dependency>
- 
-  
-		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.9</version>
 		</dependency>
-
-  
 	</dependencies>
 
 	<build>
