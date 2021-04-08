@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>to login</title>
 </head>
 <body>
 <a href="/dologin.do">点我进行微博登陆
