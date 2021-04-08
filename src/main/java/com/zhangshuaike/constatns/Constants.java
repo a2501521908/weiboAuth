@@ -16,8 +16,10 @@ public class Constants {
 
     /**
      * app secret
+     *
+     * 此密钥已进行重置，请申请您自己的密钥进行
      */
-    public static final String CLIENT_SECRET = "665d765dc5af6ad27380cb6da22e4b7a";
+    public static final String CLIENT_SECRET = "";
 
     /**
      * redirect_uri
