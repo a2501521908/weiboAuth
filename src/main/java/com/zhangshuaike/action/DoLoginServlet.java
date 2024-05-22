@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author : <a href="mailto:2501521908@qq.com">张帅轲</a>
  * @version : 1.0
- * @date : 2021/04/08
  */
 @WebServlet(name = "DoLoginServlet", urlPatterns = "/dologin.do")
 public class DoLoginServlet extends HttpServlet {
